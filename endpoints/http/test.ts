@@ -6,5 +6,8 @@ export class TestController extends wasp.http.Context {
     })
     async foo() {
         console.log(this.req.path);
+        return {
+            success: true
+        };
     }
 }
