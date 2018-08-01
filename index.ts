@@ -9,7 +9,7 @@ async function main() {
     const app = new wasp.Application(await wasp.config.loadFromDir(__dirname + "/config"), [
         new DatabasePlugin(Object.values(models), typeorm.getConnectionManager())
     ]);
-    await app.server.start();
+    await app.start();
 }
 
 main().catch(console.error);
