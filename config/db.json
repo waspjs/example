@@ -1,0 +1,8 @@
+{
+  "host": "localhost",
+  "port": 5432,
+  "username": "wasp_example",
+  "password": "erdfjb3rg0389riwyhbv",
+  "database": "wasp_example",
+  "type": "postgres"
+}

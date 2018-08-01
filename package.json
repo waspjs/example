@@ -18,5 +18,9 @@
   "homepage": "https://github.com/waspjs/example#readme",
   "devDependencies": {
     "@wasp/tslint-rules": "^1.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.4.3",
+    "typeorm": "^0.2.7"
   }
 }
